@@ -1,0 +1,1 @@
+C:\Users\ahmme\source\repos\NourGramApp\NourGramApp\NourGramApp.csproj;x64
