@@ -97,7 +97,16 @@
                      HeightRequest="300"
                       WidthRequest="400"
                       />
-                        <!--<Image Source="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUVFRgVFRYYG
+                       <!--.....................................-->
+                        <StackLayout Padding="10">
+                            <toolkit:MediaElement x:Name="mediaElement"
+                      ShouldAutoPlay="False"
+                      ShouldShowPlaybackControls="True"
+                      Source="{Binding embedLink }"
+                     HeightRequest="300"
+                      WidthRequest="400"
+                      />
+                            <!--<Image Source="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUVFRgVFRYYG
     BgYGBgYGBgZGBgYGBgYGBkZGRgYGBgcIS4lHB4rIRgYJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHxISHzQrJCQxNDQ0NDQ0NDU0MTE2MTY0NDQ
     0MTQ3NDQ0NDYxNDUxNDQ0NDQ0NDQ0NDQ0NDQ0MTQ0NP/AABEIAKgBLAMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAAEAQIDBQYAB//EAD4QA
     AIBAgQDBgQEBQIFBQAAAAECAAMRBAUSITFBURMiYXGBkQYyobFCUmLBFBVy0fCi4QczQ4KyI3PC0vH/xAAZAQADAQEBAAAAAAAAAAAAAAABAgMABAX/
